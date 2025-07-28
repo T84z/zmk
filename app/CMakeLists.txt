@@ -132,3 +132,4 @@ if (CONFIG_ZMK_STUDIO_RPC)
 endif()
 
 zephyr_cc_option(-Wfatal-errors)
+target_sources(app PRIVATE src/modules/custom_rotation.c)
